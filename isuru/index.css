@@ -1,0 +1,56 @@
+.content,.content1,.content3,.content4,.content5{
+    border:3px solid black;
+    margin:0 auto;
+    width:75%;
+    text-align:center
+}
+
+.buttonset,.buttonset1,.flex-box,.flex-box1,.row1,.row2,.row3{
+    display: flex;
+    border:2px solid black;
+    padding:10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.row1,.row2{
+    background-color: rgb(5, 65, 5);
+    color: blanchedalmond;
+}
+
+.row1 div{
+    border:1px solid black;
+    padding: 10px;
+    flex:1;
+    text-align: center;
+    height: 350px;
+}
+
+.row1  img{
+    width:10%;
+    padding:10px;
+}
+
+.row2 button{
+    border: 1px solid black;
+}
+/*.row1 img{
+    with:25%;
+    padding:10px;
+}*/
+
+.catgenerating img{
+    padding: 10px;
+}
+
+.flex-box img:hover{
+    box-shadow: 8px 10px 50px blue;
+}
+
+
+table,th,td{
+    border:1px solid black;
+    padding: 5px;
+    text-align: center;
+}
